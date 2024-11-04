@@ -62,7 +62,7 @@ export default function TodoInput() {
       <Text mt={5} ml={5} color='black'>
         TODOs: {totalTodo} 📃
       </Text>
-      <Modal size='full' onClose={onClose} isOpen={isOpen} isCentered>
+      <Modal size='xl' onClose={onClose} isOpen={isOpen} isCentered>
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Enter TODO</ModalHeader>
